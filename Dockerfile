@@ -1,4 +1,4 @@
-FROM golang:1.8.3
+FROM golang:1.7.1-alpine
 MAINTAINER hteen <i@hteen.cn>
 
 RUN apk add --no-cache git make openssl
